@@ -64,3 +64,45 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+a  {
+	text-decoration: none;
+	margin-left: 200px;
+}
+
+.logo {
+	position: absolute;
+	right: 0px;
+	padding: 10px;
+}
+
+.innovation {
+	margin-top: 50px;
+}
+
+h1 {
+	font-size: 50px;
+	text-align: left;
+	margin-left: 200px;
+}
+
+
+button {
+	color: black;
+	background-color: white;
+	margin-left: 150px;
+}
+
+.circle {
+	position: absolute;
+	right: 20px;
+	padding: 10px;
+}
+
+.middle-img {
+	position: absolute;
+	right: 500px;
+	padding: 10px;
+}
+	
