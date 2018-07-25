@@ -90,17 +90,8 @@ a  {
 
 /* Header */
 
-.innovation {
-	position: relative;
-	width: 350px;
-	height: 150px;
-	padding-bottom: 260px;
-}
+	/* Div Begin */
 
-h1 {
-	width: 300px;
-} 
-	
 .innov-box {
 	position: relative;
 	left: 100px;
@@ -108,14 +99,21 @@ h1 {
 	width: 150px;
 	height: 90px;
 	margin: 80px;
-
 }
+		/* Section Begin */
 .innovation {
 	position: relative;
 	text-align: center;
 	font-size: 80px;
 }
 
+h1 {
+	width: 300px;
+} 
+	
+		/* Section End */
+
+		/* Section Begin */
 .get-started {
 	width: 150px;
 	margin: 0px 0px 0px 70px;
@@ -128,8 +126,13 @@ button {
 	display: inline-block;
 	width: 150px;
 	margin-top: 20px;
-
 }
+
+		/* Section End */
+
+	/* Div End */
+
+	/* Div Begin */
 
 img1 {
 	display: inline-block;
@@ -144,26 +147,36 @@ img1 {
 	padding: 10px;
 }
 
-/* Div */
+	/* Div End */
+
+	/* Div Begin */
 
 text1 {
 	display: inline-block;
 	width: 1200px;
 }
+		/* Section Begin */
 
 .text1 .features {
 	display: inline-block;
 	width: 530px;
 	margin: 1em;
 }
+		/* Section End */
+
+		/* Section Begin */
+
 
 .text1 .about {
 	display: inline-block;
 	width: 530px;
 	margin: 1em;
 }
+		/* Section End */
 
-/* Div */
+/* Div End */
+
+/* Div Begin */
 
 .middle-img {
 	/*max-width: 100%;
@@ -179,8 +192,9 @@ text2 {
 	position: relative;
 	display: inline-block;
 	width: 1900px;
-	
 }
+
+		/* Section Begin */
 
 .text2 .services {
 	display: inline-block;
@@ -188,17 +202,31 @@ text2 {
 	margin: 1em;
 }
 
+		/* Section End */
+
+		/* Section Begin */
+
 .text2 .product {
 	display: inline-block;
 	width: 340px;
 	margin: 1em;
 }
 
+		/* Section End */
+
+		/* Section Begin */
+
 .text2 .vision {
 	display: inline-block;
 	width: 340px;
 	margin: 1em;
 }
+
+		/* Section End */
+
+	/* Div End */
+
+/* Footer */
 
 footer .copyright {
 	padding-top: 40px;	
