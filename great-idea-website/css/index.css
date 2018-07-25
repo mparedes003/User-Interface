@@ -65,6 +65,11 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+body {
+	margin-left: 55px;
+	margin-right: 55px;
+}
+
 /* Nav */
 
 a  {
@@ -72,9 +77,8 @@ a  {
 	font-size: 20px;
 	text-decoration: none;
 	display: inline-block;
-	/*width: 200px;*/
 	padding: 20px;
-	margin-left: 45px;
+	margin-left: 30px;
 }
 
 .logo {
@@ -87,8 +91,10 @@ a  {
 /* Header */
 
 .innovation {
-	width: 300px;
-	height: 300px;
+	position: relative;
+	width: 350px;
+	height: 150px;
+	padding-bottom: 260px;
 }
 
 h1 {
@@ -96,16 +102,18 @@ h1 {
 } 
 	
 .innov-box {
+	position: relative;
+	left: 100px;
 	display: inline-block;
-	width: 100px;
-	height: 100px;
-	margin: 10em;
+	width: 150px;
+	height: 90px;
+	margin: 80px;
 
 }
 .innovation {
 	position: relative;
 	text-align: center;
-	font-size: 70px;
+	font-size: 80px;
 }
 
 .get-started {
@@ -119,6 +127,7 @@ button {
 	background-color: white;
 	display: inline-block;
 	width: 150px;
+	margin-top: 20px;
 
 }
 
@@ -128,78 +137,71 @@ img1 {
 }
 
 .circle {
+	width: 440px;
 	position: absolute;
-	right: 20px;
+	top: 85px;
+	right: 100px;
 	padding: 10px;
-}
-
-hr {
-	height: 50px,
 }
 
 /* Div */
 
 text1 {
 	display: inline-block;
-	width: 876px;
+	width: 1200px;
 }
 
 .text1 .features {
 	display: inline-block;
-	width: 435px;
+	width: 530px;
 	margin: 1em;
 }
 
 .text1 .about {
 	display: inline-block;
-	width: 435px;
+	width: 530px;
 	margin: 1em;
 }
 
 /* Div */
 
 .middle-img {
-	/*width: 1905px;
-	height: 100px;*/
+	/*max-width: 100%;
+	max-height: 100%;
+	width: auto;
+	height: auto;*/
+	width: 1140px;
 	position: relative;
-	/*right: 500px;
-	padding: 10px;*/
-	/*top: 0px;
-	left: 0px;*/
+	top: 10px;
 }
 	
 text2 {
 	position: relative;
-	top: 200px;
 	display: inline-block;
 	width: 1900px;
-	padding: 25px;
+	
 }
 
 .text2 .services {
 	display: inline-block;
-	width: 350px;
+	width: 340px;
 	margin: 1em;
 }
 
 .text2 .product {
 	display: inline-block;
-	width: 350px;
+	width: 340px;
 	margin: 1em;
 }
 
 .text2 .vision {
 	display: inline-block;
-	width: 350px;
+	width: 340px;
 	margin: 1em;
 }
 
-.footer-content {
-	display: inline-block;
-	width: 1900px;
-}
-.foot-content .copyright {
-	display: inline-block;
-	left: 800px;
-	
+footer .copyright {
+	padding-top: 40px;	
+	padding-left: 500px;
+	padding-bottom: 100px;
 }
