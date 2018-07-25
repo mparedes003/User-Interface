@@ -65,6 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+/* Nav */
 
 a  {
 	color:gray;
@@ -83,6 +84,8 @@ a  {
 	padding: 10px;
 }
 
+/* Header */
+
 .innovation {
 	width: 300px;
 	height: 300px;
@@ -92,8 +95,6 @@ h1 {
 	width: 300px;
 } 
 	
-
-
 .innov-box {
 	display: inline-block;
 	width: 100px;
@@ -102,6 +103,7 @@ h1 {
 
 }
 .innovation {
+	position: relative;
 	text-align: center;
 	font-size: 70px;
 }
@@ -120,11 +122,39 @@ button {
 
 }
 
+img1 {
+	display: inline-block;
+	width: 950px;
+}
+
 .circle {
 	position: absolute;
 	right: 20px;
 	padding: 10px;
 }
+
+hr {
+	height: 50px,
+}
+
+/* Div */
+
+text1 {
+	display: inline-block;
+	width: 1900px;
+}
+
+.text1 .features {
+	display: inline-block;
+	width: 950px;
+}
+
+.text1 .about {
+	display: inline-block;
+	width: 950px;
+}
+
+/* Div */
 
 .middle-img {
 	position: absolute;
