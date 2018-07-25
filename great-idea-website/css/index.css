@@ -73,13 +73,13 @@ a  {
 	text-decoration: none;
 	display: inline-block;
 	/*width: 200px;*/
-	padding: 45px;
-	margin-left: 90px;
+	padding: 20px;
+	margin-left: 45px;
 }
 
 .logo {
 	position: absolute;
-	top: 25px;
+	top: 0px;
 	right: 100px;
 	padding: 10px;
 }
@@ -141,26 +141,26 @@ hr {
 
 text1 {
 	display: inline-block;
-	width: 1900px;
+	width: 876px;
 }
 
 .text1 .features {
 	display: inline-block;
-	width: 900px;
+	width: 435px;
 	margin: 1em;
 }
 
 .text1 .about {
 	display: inline-block;
-	width: 900px;
+	width: 435px;
 	margin: 1em;
 }
 
 /* Div */
 
 .middle-img {
-	width: 1905px;
-	height: 100px;
+	/*width: 1905px;
+	height: 100px;*/
 	position: relative;
 	/*right: 500px;
 	padding: 10px;*/
@@ -178,19 +178,19 @@ text2 {
 
 .text2 .services {
 	display: inline-block;
-	width: 600px;
+	width: 350px;
 	margin: 1em;
 }
 
 .text2 .product {
 	display: inline-block;
-	width: 600px;
+	width: 350px;
 	margin: 1em;
 }
 
 .text2 .vision {
 	display: inline-block;
-	width: 600px;
+	width: 350px;
 	margin: 1em;
 }
 
